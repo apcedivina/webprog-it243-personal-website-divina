@@ -42,3 +42,19 @@
     margin: 10px;
     padding: 10px;
 }
+
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    padding: 15px;
+    background-color: #f8dada;
+    border-radius: 10px;
+}
+ 
+.grid5 img {
+    width: 100px;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;   
+}
+ 
